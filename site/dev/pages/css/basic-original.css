@@ -1,0 +1,87 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+body{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #333;
+	font-size: 12px;
+}
+
+input, textarea, select{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #333;
+	font-size: 12px;
+}
+
+td {
+	text-align: left;
+	vertical-align:top;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #eee;
+	color: #333;
+	font-size: 12px;
+	padding:5px;
+}
+
+.title1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #333;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+a{
+	color: #27D;
+	text-decoration: none;
+}
+a:focus, a:hover, a:active {
+	text-decoration: underline;
+}
+p, li {
+	line-height: 1.8em;
+}
+h1, h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 0 0 10px 0;
+	letter-spacing:-1px;
+}
+h1 {
+	padding: 0;
+	font-size: 3em;
+	color: #333;
+}
+h2 {
+	padding-top: 10px;
+	font-size:2em;
+}
+pre {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	overflow-x: auto;
+}
+#page {
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: left;
+/*	border-color: #ddd;
+	border-style: none solid solid;
+	border-width: medium 1px 1px; */
+}
+#container {
+	padding: 20px 0px 0px 0px;
+	/* padding: 20px 20px 0px 20px; */
+
+}
+#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}
+#footer {
+	clear: both;
+	color: #333;
+	/* margin: 0 auto;  */
+	/* padding: 20px 0 40px 20px; */
+	text-align: left;
+}

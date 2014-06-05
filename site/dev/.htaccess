@@ -1,0 +1,10 @@
+Options -Indexes
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options -MultiViews +FollowSymLinks 
+Options -MultiViews +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
